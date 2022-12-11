@@ -16,7 +16,7 @@ logo = '\n      \x1b[0;32m #     #    #    #       ### #    #  \n      \x1b[0;33
 
 def main():
     os.system('clear')
-    print logo
+    print logo()
     print ''
     print ' \x1b[1;93m    \tMain menu'
     print ''
