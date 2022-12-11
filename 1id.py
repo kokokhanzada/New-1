@@ -26,7 +26,7 @@ def main():
     log_sel()
 
 
-def log_sel():
+def log_select():
     select = raw_input('\x1b[1;92mChoose option: \x1b[0;93m')
     if select == '1':
         login()
